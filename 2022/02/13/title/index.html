@@ -20,17 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="一个人的成长记录">
-<meta property="og:type" content="website">
-<meta property="og:title" content="guanghui的博客">
-<meta property="og:url" content="http://example.com/archives/2022/02/index.html">
+  <meta name="description" content="(我的第一篇博客不知道怎么回事没有了…..) 函数内访问全局变量需要 global 关键字或者使用 $GLOBALS[index] 数组  $_GET 变量  $_GET 变量是一个数组，内容是由 HTTP GET 方法发送的变量名称和值。 $_GET 变量用于收集来自 method&#x3D;&quot;get&quot; 的表单中的值。从带有 GET 方法的表单发送的信息，对任何人都是可见的（会显示在浏览器的地址栏），并且">
+<meta property="og:type" content="article">
+<meta property="og:title" content="php学习">
+<meta property="og:url" content="http://example.com/2022/02/13/title/index.html">
 <meta property="og:site_name" content="guanghui的博客">
-<meta property="og:description" content="一个人的成长记录">
+<meta property="og:description" content="(我的第一篇博客不知道怎么回事没有了…..) 函数内访问全局变量需要 global 关键字或者使用 $GLOBALS[index] 数组  $_GET 变量  $_GET 变量是一个数组，内容是由 HTTP GET 方法发送的变量名称和值。 $_GET 变量用于收集来自 method&#x3D;&quot;get&quot; 的表单中的值。从带有 GET 方法的表单发送的信息，对任何人都是可见的（会显示在浏览器的地址栏），并且">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-02-13T15:08:26.000Z">
+<meta property="article:modified_time" content="2022-02-13T15:17:38.578Z">
 <meta property="article:author" content="guanghui">
+<meta property="article:tag" content="php">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/archives/2022/02/">
+<link rel="canonical" href="http://example.com/2022/02/13/title/">
 
 
 <script id="page-configurations">
@@ -38,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | guanghui的博客</title>
+  <title>php学习 | guanghui的博客</title>
   
 
 
@@ -149,70 +152,125 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/02/13/title/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="guanghui">
+      <meta itemprop="description" content="一个人的成长记录">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="guanghui的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          php学习
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-02-13 23:08:26 / 修改时间：23:17:38" itemprop="dateCreated datePublished" datetime="2022-02-13T23:08:26+08:00">2022-02-13</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
-    </div>
+        <p>(我的第一篇博客不知道怎么回事没有了…..)<hr><br> 函数内访问全局变量需要 global 关键字或者使用 $GLOBALS[index] 数组<br> <hr></p>
+<h3 id="GET-变量"><a href="#GET-变量" class="headerlink" title="$_GET 变量"></a>$_GET 变量</h3><br>
+<p>
+$_GET 变量是一个数组，内容是由 HTTP GET 方法发送的变量名称和值。
+$_GET 变量用于收集来自 method="get" 的表单中的值。从带有 GET 方法的表单发送的信息，对任何人都是可见的（会显示在浏览器的地址栏），并且对发送的信息量也有限制（最多 100 个字符）。 
+<hr>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<h3 id="echo和print"><a href="#echo和print" class="headerlink" title="echo和print"></a>echo和print</h3></p>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-02-13T23:08:26+08:00"
-              content="2022-02-13">
-          02-13
-        </time>
-      </div>
+<p>echo 是语法结构，也就是关键字，不是函数。使用的时候不用加括号，加上也可以。显示多个值的时候可以用逗号隔开。只支持基本类型，布尔型除外，echo true的时候显示1，echo false的时候啥都没有。<br></p>
+<p>print 和 echo 基本一致。但是print 不支持逗号分隔多个显示变量的语法。<br></p>
+<p>print_r 是函数，不仅可以打印变量的的值，还能显示变量类型，而且也可以显示数组和对象这样复杂的变量类型。print_r() 将把数组的指针移到最后边。使用 reset() 可让指针回到开始处。<br></p>
+<p>两者相同点：<br></p>
+<p> echo 和 print 都是语言结构(官方文档解释为language construct)；<br><br>echo 和 print 都是用来输出字符串的；<br><br>当同时只有一个参数的时候，echo 和 print 后面的括号(parenthesis)都是可选的，即：echo ($argument1) 等价于 echo $argument1，print(argument)等价于print argument；<br><br>echo 和 print 在输出之前，都会将参数的进行转换，尝试转换为字符串类型。<br><br>两者的区别：<br></p>
+<p>echo能接受N个字符串类型的参数(注意:有多个参数的时候，不能使用括号，即echo $arg1,$arg2是正确的，echo($arg1,$arg2)会导致解析错误)； print只能接收1个字符串类型的参数；<br><br>echo没有返回值； print有返回值，其值永远为int类型的1。<br><br>在这里引用PHP官方原文档的说明 : “The major differences to echo are that print only accepts a single argument and always returns 1.”<br><br>String（字符串）, Integer（整型）, Float（浮点型）, Boolean（布尔型）, Array（数组）, Object（对象）, NULL（空值）。<br><br><br>松散比较：使用两个等号 &#x3D;&#x3D; 比较，只比较值，不比较类型。<br><br>严格比较：用三个等号 &#x3D;&#x3D;&#x3D; 比较，除了比较值，也比较类型。<br><br>例如，”42” 是一个字符串而 42 是一个整数。FALSE 是一个布尔值而 “FALSE” 是一个字符串。<br></p>
+<hr>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/02/13/title/" itemprop="url">
-            <span itemprop="name">php学习</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-02-04T17:01:27+08:00"
-              content="2022-02-04">
-          02-04
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/02/04/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+<h3 id="1-simple-php"><a href="#1-simple-php" class="headerlink" title="1.simple php"></a>1.simple php</h3><p>首先网上搜索相关函数内容，发现题目需要确保a&#x3D;&#x3D;0且a为真，则a可以为php或abcd等等，其次b不是由数字单独组成，且b&gt;1234，则b可以等于1235a，在地址栏提交数据得到答案。</p>
+<h3 id="2-php-2"><a href="#2-php-2" class="headerlink" title="2.php.2"></a>2.php.2</h3><p>提示访问主要网站，搜索了一下发现要加入&#x2F;index.phps</p>
+<p>phps文件就是php的源代码文件，通常用于提供给用户（访问者）直接通过Web浏览器查看php代码的内容。</p>
+<p>因为用户无法直接通过Web浏览器“看到”php文件的内容，所以需要用phps文件代替。</p>
+<p>phps是php的源代码文件，但是不能接受传参</p>
+<p>分析题目id&#x3D;&#x3D;&#x3D;“admin”不成立，在使用urldecode解码后 ，id &#x3D;&#x3D; ‘admin’ 成立，由于输入 url 地址栏提交数据时，浏览器会自动进行一次urldecode解码，故需编码两次，在&#x2F;index.php后输入&#x2F;?id&#x3D;%2561%2564%256D%2569%256E ，提交就能拿到 KEY</p>
+<h3 id="3-Web-php-include"><a href="#3-Web-php-include" class="headerlink" title="3.Web_php_include"></a>3.Web_php_include</h3><p>怎么说呢，两星的题目完全看不懂了。这道题完全是照着网上的教程写的。因为教程的一些命令都看不怎么懂…..下面将列出我学习的很多新知识以及解题过程。（这个新知识。。。完全看不懂，先记下来）</p>
+<blockquote>
+<p>php伪协议 <a target="_blank" rel="noopener" href="https://www.cnblogs.com/linfangnan/p/13535097.html">参考自</a></p>
+<blockquote>
+<p>崩溃了，，，看不懂，，，，感觉还需要很多的知识 Linux 抓包 爆破啥的………</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>data伪协议代码执行</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>注意到这里还传递了一个参数 “hello”，我们尝试传一个参数进去，发现这个参数被回显回了网页。因此我们考虑以命令执行，然后命令执行的结果回显到浏览器，例如用 ls、cat 命令来查看。<br>输入base64 编码后的<?php system("ls")?>网页就会执行 ls 命令输出目录下的文件名。<br>接下来就要查看 “fl4gisisish3r3.php” 这个文件的内容了，还是一样写出下面代码让网页执行 cat 命令查看文件。<br><?php system("cat")?><br>还是一样把上述代码用 base64 编码然后传入，然后打开 F12 查看源码就能看到 flag。</p>
+</blockquote>
+</blockquote>
+<p>最后还看了看这个题的wp…..只能说继续学习QAQ</p>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/php/" rel="tag"># php</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/02/04/hello-world/" rel="prev" title="Hello World">
+      <i class="fa fa-chevron-left"></i> Hello World
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -265,6 +323,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#GET-%E5%8F%98%E9%87%8F"><span class="nav-number">1.</span> <span class="nav-text">$_GET 变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#echo%E5%92%8Cprint"><span class="nav-number">2.</span> <span class="nav-text">echo和print</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-simple-php"><span class="nav-number">3.</span> <span class="nav-text">1.simple php</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-php-2"><span class="nav-number">4.</span> <span class="nav-text">2.php.2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-Web-php-include"><span class="nav-number">5.</span> <span class="nav-text">3.Web_php_include</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
